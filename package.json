@@ -27,8 +27,7 @@
   ],
   "main": "lib/koa-hot-shots",
   "dependencies": {
-    "hot-shots": "^8.3.0",
-    "obj-extend": "~0.1.0"
+    "hot-shots": "^8.3.0"
   },
   "devDependencies": {
     "chai": "~4.2.0",
