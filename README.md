@@ -10,7 +10,7 @@ Forked from [withspectrum/koa-hot-shots](https://github.com/withspectrum/koa-hot
 ## Installation
 
 ``` bash
-npm install @short.io/hot-shots
+npm install @short.io/koa-hot-shots
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ An example of an koa server with koa-hot-shots:
 ``` js
 const koa = require('koa');
 const route = require('koa-route');
-const statsd = require('koa-hot-shots');
+const statsd = require('@short.io/koa-hot-shots');
 const app = new Koa();
 
 app.use(statsd());
@@ -51,7 +51,7 @@ example of a server set up with a more specific key:
 
 ``` js
 var koa = require('koa');
-var koaStatsd = require('koa-hot-shots');
+var koaStatsd = require('@short.io/koa-hot-shots');
 var app = koa();
 
 function statsd (path) {

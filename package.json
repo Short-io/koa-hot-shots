@@ -1,7 +1,7 @@
 {
   "name": "@short.io/koa-hot-shots",
   "description": "Statsd route monitoring middleware for koa",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/withspectrum/koa-hot-shots",
   "author": {
     "name": "Andrii Kostenko"
